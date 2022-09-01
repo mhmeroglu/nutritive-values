@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/nutritive-values/static/css/main.3fad872b.css",
+    "main.js": "/nutritive-values/static/js/main.a277dcdd.js",
+    "static/media/foods.png": "/nutritive-values/static/media/foods.3198d0945d099d5664b2.png",
+    "index.html": "/nutritive-values/index.html",
+    "main.3fad872b.css.map": "/nutritive-values/static/css/main.3fad872b.css.map",
+    "main.a277dcdd.js.map": "/nutritive-values/static/js/main.a277dcdd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3fad872b.css",
+    "static/js/main.a277dcdd.js"
+  ]
+}

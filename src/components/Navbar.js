@@ -16,7 +16,7 @@ const Navbar = () => {
 
     const handleKeyDown = (e) => {
         if (e.keyCode === 13) {
-           navigate("/detail");
+           navigate("/nutritive-values/details");
         }
     };
 
@@ -33,7 +33,7 @@ const Navbar = () => {
                     type="search"
                     placeholder="Search..." />
                 <Link
-                    to="/detail"
+                    to="/nutritive-values/details"
                 >
                     <FontAwesomeIcon className='search-icon' icon={faSearch} />
                 </Link>

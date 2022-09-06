@@ -16,13 +16,13 @@ const Navbar = () => {
 
     const handleKeyDown = (e) => {
         if (e.keyCode === 13) {
-           navigate("/nutritive-values/details");
+           navigate("/details");
         }
     };
 
     return (
         <div className="navbar">
-            <a href="/"><h1>{title}</h1></a>
+            <Link to="/"><h1>{title}</h1></Link>
 
             <div className="search-box">
                 <input
@@ -33,7 +33,7 @@ const Navbar = () => {
                     type="search"
                     placeholder="Search..." />
                 <Link
-                    to="/nutritive-values/details"
+                    to="/details"
                 >
                     <FontAwesomeIcon className='search-icon' icon={faSearch} />
                 </Link>

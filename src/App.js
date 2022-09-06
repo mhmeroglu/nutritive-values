@@ -2,7 +2,7 @@ import FoodDetails from "./components/FoodDetails";
 import Home from "./components/home/Home";
 import Navbar from "./components/Navbar";
 import {
-  BrowserRouter,
+  HashRouter,
   Routes,
   Route,
 } from "react-router-dom";
@@ -11,17 +11,17 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Navbar />
       <div className="content">
       <Routes>
-        <Route path="/nutritive-values/" element={<Home />}></Route>
-        <Route path="/nutritive-values/details" element={<FoodDetails/>}></Route>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/details" element={<FoodDetails/>}></Route>
         <Route path="*" element={<NotFound />} />
       </Routes>
       </div>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
